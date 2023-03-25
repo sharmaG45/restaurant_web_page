@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.863);
+    height: 70px;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    padding: 25px 20px;
+    list-style: none;
+    float: right;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav li a:hover,
+nav li a.active {
+    background: red;
+    border-radius: 10px;
+}
+
+nav div {
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+}
+
+nav div img {
+    width: 100%;
+    height: 100%;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px ;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+nav .btn-sm{
+    margin-left: 480px;
+    margin-top: 20px;
+    padding:5px;
+    cursor: pointer;
+    border-radius: 10px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+#sec1 {
+    width: 100%; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#sec1 img{
+    width: 100%;
+}
+
+#sec2 {
+    width: 100%;
+    height: 120vh;
+}
+
+#sec2 h2 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 2px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+#sec2 .sec-2 {
+    width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+}
+
+#sec2 img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 400px;
+    padding-bottom: 150px;
+}
+
+#sec3 {
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(42, 18, 48);
+}
+
+#sec3 h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#sec3 #container{
+    width: 100%;
+}
+
+#sec3 #container #box {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 20px 13px;
+    background-color: rgb(255, 0, 85);
+    border-radius: 30px;
+    padding-right: 20px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+#sec3 #box:hover{
+    width: 310px;
+}
+
+#sec3 #container #box img {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#sec3 #container #box h2 {
+    font-family: 'Fuggles', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#sec3 #container #box p {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+#sec4 {
+    width: 100%;
+    height: 120vh;
+}
+
+#sec4 img {
+    height: 400px;
+    width: 100%;
+}
+
+#sec4 h1 {
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 10px 20px;
+    padding: 10px 10px;
+
+}
+
+#sec4 p {
+    font-size: 20px;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    font-family: tahoma;
+}
+
+#sec4 div {
+    height: 300px;
+    width: 100%;
+}
+
+#sec4 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right,#020b3e,#2d1500);
+    color: #fff;
+    padding: 100px 0 30px;
+}
+.footer h2 {
+    font-family: 'Fuggles', cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    padding-bottom: 90px;
+    text-decoration: underline;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+.logos{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid#ccc;
+    margin: 20px 0;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+form .far{
+    font-size: 15px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+.submit{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
+.submit .fas{
+    font-size: 15px;   
+}
+.social-icon .fab{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+}
+.line{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copy-right{
+    text-align: center;
+}
+@media screen and (max-width: 799.44px){
+    #sec3 #container{
+        width: 60%;
+    }
+    #sec3 #box{
+        width: 100px;
+        height: 100px;
+    }
+}
